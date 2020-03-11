@@ -173,8 +173,8 @@ TextureImporter:
       name: Terrain_BG_Trees_09
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2496
+        x: 16
+        y: 2112
         width: 2664
         height: 806
       alignment: 0
@@ -340,7 +340,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ca7729776ccafaa45a658a1bf020c220
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 

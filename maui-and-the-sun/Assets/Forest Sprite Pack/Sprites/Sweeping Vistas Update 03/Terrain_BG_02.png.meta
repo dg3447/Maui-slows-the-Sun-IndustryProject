@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: Mountain background
+    second: Terrain_BG_03
   - first:
       213: 21300002
     second: Terrain_BG_04
@@ -44,18 +44,6 @@ TextureImporter:
   - first:
       213: 21300026
     second: Terrain_BG_Trees_28
-  - first:
-      213: 4052163268073451182
-    second: Terrain_BG_02_0
-  - first:
-      213: 2194286041315306121
-    second: Terrain_BG_02_1
-  - first:
-      213: -6941355977384818107
-    second: Terrain_BG_02_2
-  - first:
-      213: -3307650831897836338
-    second: Terrain_BG_02_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -152,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mountain background
+      name: Terrain_BG_03
       rect:
         serializedVersion: 2
         x: 0
-        y: 1691
+        y: 1704
         width: 4096
-        height: 1429
+        height: 1438
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,7 +436,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 36d2f53af41938a4ebeb78ac60975978
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
