@@ -2,123 +2,64 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-
-    private Rigidbody2D myRigidbody;
-    private Animator myAnimator;
-
-    [SerializeField]
-    private float MovementSpeed;
-
-    private bool attack;
-    private bool slide;
-
-    private bool facingRight;
-
-    [SerializeField]
-    private Transform[] groundChecks;
-
-    [SerializeField]
-    private float groundRadius;
-
-    [SerializeField]
-    private LayerMask whatIsGround;
-    private bool isGrounded;
-
-    private bool jump;
-    private bool jumpAttack;
-
-    [SerializeField]
-    private bool airControl;
-
-    [SerializeField]
-    private float jumpForce;
-
-
-
-
-
     // Start is called before the first frame update
+
+    private Rigidbody2D myRigid;
+    private Animator myAnimator;
+    [SerializeField] private float movementSpeed;
+    private bool facigRight;
+    [SerializeField] private Transform[] groundCheck;
+    [SerializeField] private float grondRadius;
+    [SerializeField] private LayerMask whatIsGround;
+    private bool isGrounded;
+    private bool jump;
+    [SerializeField] private bool airControl;
+    [SerializeField] private float jumpForce;    
+
     void Start()
     {
-        facingRight = true;     //player always face on right direction
-        myRigidbody = GetComponent<Rigidbody2D>();  //referencing the rigidbody2d component of the player
-        myAnimator = GetComponent<Animator>();     //referencing the Animator component of the player
+        facigRight = true;
+        myRigid = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
     }
-
-
-    private void Update() //Update updates once per frame
+    private void Update()
     {
         HandleInput();
     }
-
-    void FixedUpdate()    //fixedUpdate updates on fixed amount of time, regardless of frames  
+    // Update is called once per frame
+    void FixedUpdate()
     {
-        float horizontal = Input.GetAxis("Horizontal"); // geting x-axis values
-
+        float horizontal = Input.GetAxis("Horizontal");
         isGrounded = IsGrounded();
-
-        HandleMovement(horizontal);  //method call
-        Flip(horizontal);            //method call
-        HandleAttack();              //method call
-        HandleLayers();              //method call
-        ResetValues();               //method call
+        HandleMovement(horizontal);
+        Flip(horizontal);
+        //HandleLayers(); // line2 2
+        ResetValues();
     }
 
     private void HandleMovement(float horizontal)
     {
-        if (myRigidbody.velocity.y < 0)
+         myRigid.velocity = new Vector2(horizontal * movementSpeed, myRigid.velocity.y);
+            myAnimator.SetFloat("speed", Mathf.Abs(horizontal));
+
+        if (myRigid.velocity.y < 0)
         {
             myAnimator.SetBool("land", true);
         }
-    
-        if (!myAnimator.GetBool("slide") &&!this.myAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Attack") && (isGrounded || airControl)) // if player is not(!) attacking 
+        if (isGrounded || airControl)
         {
-            myRigidbody.velocity = new Vector2(horizontal * MovementSpeed, myRigidbody.velocity.y);   //moving player with velocity
+           
         }
-
+       
         if (isGrounded && jump)
         {
             isGrounded = false;
-            myRigidbody.AddForce(new Vector2(0, jumpForce));
-            myAnimator.SetTrigger("jump");
-
-
+            myRigid.AddForce(new Vector2(0, jumpForce));
+            //myAnimator.SetTrigger("jump");  // line 3
         }
 
-
-        if (slide && !this.myAnimator.GetCurrentAnimatorStateInfo(0).IsName("slide"))
-        {
-            myAnimator.SetBool("slide", true);
-        }
-        else if (!this.myAnimator.GetCurrentAnimatorStateInfo(0).IsName("slide")) // slide is name of slide animation
-        {
-            myAnimator.SetBool("slide", false); // slide parameters bool
-        }
-
-
-        myAnimator.SetFloat("speed", Mathf.Abs(horizontal));  // running player depending on the speed parameter which returns >0.01||<0.01 for which Mathf.Abs is needed
-    }
-
-    private void HandleAttack() //handling the attacks of the player
-    {
-        if (attack && isGrounded && !this.myAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Attack")) // attacking is not starting after the original attack is done
-        {
-            myAnimator.SetTrigger("attack");
-            myRigidbody.velocity = Vector2.zero;  // (reseting the velocity after affacting)
-        }
-
-        if (jumpAttack && !isGrounded && !this.myAnimator.GetCurrentAnimatorStateInfo(1).IsName("jumpAttack"))
-        {
-            myAnimator.SetBool("jumpAttack", true);
-        }
-        if (!jumpAttack && !this.myAnimator.GetCurrentAnimatorStateInfo(1).IsName("jumpAttack"))
-        {
-            myAnimator.SetBool("jumpAttack", false);
-        }
-
-        
     }
     private void HandleInput()
     {
@@ -126,74 +67,54 @@ public class playerMovement : MonoBehaviour
         {
             jump = true;
         }
-
-        if (Input.GetKeyDown(KeyCode.Q))   // checking if  'E' is pressed of keyboard
-        {
-            attack = true;
-            jumpAttack = true;
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            slide = true;
-        }
-       
     }
-
-    private void Flip(float horizontal)   //flipping the player in left and right direction along x-axis
+    private void Flip (float horizontal)
     {
-        if (horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
+        if (horizontal > 0 && !facigRight || horizontal< 0 && facigRight)
         {
-            facingRight = !facingRight;
-
+            facigRight = !facigRight;
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
-            transform.localScale = theScale; 
+            transform.localScale = theScale;
         }
     }
 
-    private void ResetValues() // resetting values to default
+    private void ResetValues()
     {
-        attack = false;
-        slide = false;
         jump = false;
-        jumpAttack = false;
     }
-
     private bool IsGrounded()
     {
-        if (myRigidbody.velocity.y <= 0)
+        if (myRigid.velocity.y <= 0)
         {
-            foreach (Transform point in groundChecks)
+            foreach ( Transform point in groundCheck)
             {
-                Collider2D[] colliders = Physics2D.OverlapCircleAll(point.position, groundRadius, whatIsGround);
+                Collider2D[] colliders = Physics2D.OverlapCircleAll(point.position, grondRadius, whatIsGround);
 
                 for (int i = 0; i < colliders.Length; i++)
                 {
                     if (colliders[i].gameObject != gameObject)
                     {
-                        myAnimator.ResetTrigger("jump");
-                        myAnimator.SetBool("land", false);
-                        return true; 
+                        //myAnimator.ResetTrigger("jump");  // Line 4
+                        //myAnimator.SetBool("land", false);  // line 5
+                        return true;
                     }
                 }
             }
         }
-
         return false;
     }
 
-    private void HandleLayers()
-    {
-        if (!isGrounded)
-        {
-            myAnimator.SetLayerWeight(1, 1);
-        }
-        else
-        {
-            myAnimator.SetLayerWeight(1, 0);
-        }
+    //private void HandleLayers()                 //all the lines 1
+    //{
+    //    if (!isGrounded)
+    //    {
+    //        myAnimator.SetLayerWeight(1, 1);
+    //    }
+    //    else
+    //    {
+    //        myAnimator.SetLayerWeight(1, 0);
+    //    }
 
-    }
-
-
+    //}
 }

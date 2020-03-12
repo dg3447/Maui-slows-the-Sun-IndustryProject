@@ -32,123 +32,6 @@ TextureImporter:
   - first:
       213: 21300018
     second: PreAssembled_10
-  - first:
-      213: -6446162840475537988
-    second: PreAssembled_01_0
-  - first:
-      213: 5398641946788308050
-    second: PreAssembled_01_1
-  - first:
-      213: 9097778183588952383
-    second: PreAssembled_01_2
-  - first:
-      213: 8404307238701690474
-    second: PreAssembled_01_3
-  - first:
-      213: 1007843923321928236
-    second: PreAssembled_01_4
-  - first:
-      213: 3541456839357469270
-    second: PreAssembled_01_5
-  - first:
-      213: 350349208260116329
-    second: PreAssembled_01_6
-  - first:
-      213: 5937552973691559923
-    second: PreAssembled_01_7
-  - first:
-      213: 4734701949456875212
-    second: PreAssembled_01_8
-  - first:
-      213: -1513355018022184881
-    second: PreAssembled_01_9
-  - first:
-      213: -5769308518648997172
-    second: PreAssembled_01_10
-  - first:
-      213: 293106235405158324
-    second: PreAssembled_01_11
-  - first:
-      213: 115956233020235542
-    second: PreAssembled_01_12
-  - first:
-      213: -6505081605964210478
-    second: PreAssembled_01_13
-  - first:
-      213: 1557916834578635107
-    second: PreAssembled_01_14
-  - first:
-      213: -2774104515930121804
-    second: PreAssembled_01_15
-  - first:
-      213: -8002762196365136449
-    second: PreAssembled_01_16
-  - first:
-      213: 7719445883401754803
-    second: PreAssembled_01_17
-  - first:
-      213: 4263053260891544464
-    second: PreAssembled_01_18
-  - first:
-      213: 4979408794864697064
-    second: PreAssembled_01_19
-  - first:
-      213: 2936693794814495820
-    second: PreAssembled_01_20
-  - first:
-      213: 5030022841697189765
-    second: PreAssembled_01_21
-  - first:
-      213: 1371615300676416428
-    second: PreAssembled_01_22
-  - first:
-      213: -3116769663603101846
-    second: PreAssembled_01_23
-  - first:
-      213: -3545897246238163463
-    second: PreAssembled_01_24
-  - first:
-      213: 116273459075357453
-    second: PreAssembled_01_25
-  - first:
-      213: 8319567713180683831
-    second: PreAssembled_01_26
-  - first:
-      213: -3509422965607743842
-    second: PreAssembled_01_27
-  - first:
-      213: 4551670001448242077
-    second: PreAssembled_01_28
-  - first:
-      213: -6786591098567150752
-    second: PreAssembled_01_29
-  - first:
-      213: 6941825450269033058
-    second: PreAssembled_01_30
-  - first:
-      213: -5372433152193167845
-    second: PreAssembled_01_31
-  - first:
-      213: -3692138983506827808
-    second: PreAssembled_01_32
-  - first:
-      213: 2905955768619970317
-    second: PreAssembled_01_33
-  - first:
-      213: -8555407878606219098
-    second: PreAssembled_01_34
-  - first:
-      213: 5483635813241096585
-    second: PreAssembled_01_35
-  - first:
-      213: 4782870194003995941
-    second: PreAssembled_01_36
-  - first:
-      213: 3993050491677522261
-    second: PreAssembled_01_37
-  - first:
-      213: -5633365171156247099
-    second: PreAssembled_01_38
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -233,307 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PreAssembled_01_0
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 3292
-        width: 2044
-        height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbde121cc01aa86a0800000000000000
-      internalID: -6446162840475537988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_1
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 4081
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25427d35f34dbea40800000000000000
-      internalID: 5398641946788308050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_2
-      rect:
-        serializedVersion: 2
-        x: 735
-        y: 4081
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f393e1e4e0dc14e70800000000000000
-      internalID: 9097778183588952383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_3
-      rect:
-        serializedVersion: 2
-        x: 2079
-        y: 3208
-        width: 1958
-        height: 888
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6eee0ad7e812a470800000000000000
-      internalID: 8404307238701690474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_4
+      name: PreAssembled_01
       rect:
         serializedVersion: 2
         x: 19
-        y: 3912
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2ab3ae55b49cfd00800000000000000
-      internalID: 1007843923321928236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_5
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 3884
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65297416b38c52130800000000000000
-      internalID: 3541456839357469270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_6
-      rect:
-        serializedVersion: 2
-        x: 4032
-        y: 3902
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96ffea9afb0bcd400800000000000000
-      internalID: 350349208260116329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_7
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 3846
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ff13f798fc666250800000000000000
-      internalID: 5937552973691559923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_8
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 3830
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccef9b6665a05b140800000000000000
-      internalID: 4734701949456875212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_9
-      rect:
-        serializedVersion: 2
-        x: 4028
-        y: 3653
-        width: 22
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f489bb311ab7ffae0800000000000000
-      internalID: -1513355018022184881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_10
-      rect:
-        serializedVersion: 2
-        x: 2040
-        y: 3482
-        width: 39
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cca9a4a287c4fefa0800000000000000
-      internalID: -5769308518648997172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_11
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 3288
-        width: 15
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b7c6c27192511400800000000000000
-      internalID: 293106235405158324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_12
-      rect:
-        serializedVersion: 2
-        x: 1899
-        y: 3284
-        width: 15
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61fd9ae5495fb9100800000000000000
-      internalID: 115956233020235542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_13
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 3281
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2de5399aebe49b5a0800000000000000
-      internalID: -6505081605964210478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_14
-      rect:
-        serializedVersion: 2
-        x: 394
         y: 3279
-        width: 9
-        height: 6
+        width: 2045
+        height: 817
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36919aa5b15de9510800000000000000
-      internalID: 1557916834578635107
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_15
+      name: PreAssembled_02
       rect:
         serializedVersion: 2
-        x: 503
-        y: 3265
-        width: 16
-        height: 7
+        x: 2071
+        y: 3198
+        width: 1979
+        height: 898
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,40 +151,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b99d2ef3a66089d0800000000000000
-      internalID: -2774104515930121804
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_16
+      name: PreAssembled_03
       rect:
         serializedVersion: 2
         x: 11
-        y: 3014
-        width: 28
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbd2bbfce2a70f090800000000000000
-      internalID: -8002762196365136449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_17
-      rect:
-        serializedVersion: 2
-        x: 16
         y: 2847
-        width: 2031
+        width: 2060
         height: 355
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -604,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b8530fa12bf02b60800000000000000
-      internalID: 7719445883401754803
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_18
+      name: PreAssembled_04
       rect:
         serializedVersion: 2
-        x: 2061
-        y: 2849
-        width: 2035
-        height: 359
+        x: 2076
+        y: 2848
+        width: 2020
+        height: 342
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,40 +193,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09bd20aaa58692b30800000000000000
-      internalID: 4263053260891544464
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_19
-      rect:
-        serializedVersion: 2
-        x: 2063
-        y: 2941
-        width: 37
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8eebd59bae96a1540800000000000000
-      internalID: 4979408794864697064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_20
+      name: PreAssembled_05
       rect:
         serializedVersion: 2
         x: 0
         y: 2298
-        width: 2047
+        width: 2049
         height: 426
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -667,40 +214,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4c0306727b31c820800000000000000
-      internalID: 2936693794814495820
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_21
-      rect:
-        serializedVersion: 2
-        x: 2044
-        y: 2574
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58f3673df1b3ec540800000000000000
-      internalID: 5030022841697189765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_22
+      name: PreAssembled_06
       rect:
         serializedVersion: 2
         x: 2077
         y: 2267
-        width: 1988
+        width: 1992
         height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -709,41 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca3fe4d49d4f80310800000000000000
-      internalID: 1371615300676416428
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_23
-      rect:
-        serializedVersion: 2
-        x: 4062
-        y: 2501
-        width: 7
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6f293a11820fb4d0800000000000000
-      internalID: -3116769663603101846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_24
+      name: PreAssembled_07
       rect:
         serializedVersion: 2
         x: 0
-        y: 1106
-        width: 2033
-        height: 943
+        y: 1088
+        width: 2048
+        height: 949
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -751,146 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fd30f3dd317acec0800000000000000
-      internalID: -3545897246238163463
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_25
+      name: PreAssembled_08
       rect:
         serializedVersion: 2
-        x: 2025
-        y: 1034
-        width: 2071
-        height: 1015
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0b1ef058161d9100800000000000000
-      internalID: 116273459075357453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_26
-      rect:
-        serializedVersion: 2
-        x: 4073
-        y: 1670
-        width: 4
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73e81f491ca057370800000000000000
-      internalID: 8319567713180683831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_27
-      rect:
-        serializedVersion: 2
-        x: 4087
-        y: 1435
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9e3a5018660c4fc0800000000000000
-      internalID: -3509422965607743842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_28
-      rect:
-        serializedVersion: 2
-        x: 2024
-        y: 1191
-        width: 35
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9bcf1320c7ca2f30800000000000000
-      internalID: 4551670001448242077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_29
-      rect:
-        serializedVersion: 2
-        x: 2025
-        y: 1137
-        width: 11
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 063b31e4a5f21d1a0800000000000000
-      internalID: -6786591098567150752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_30
-      rect:
-        serializedVersion: 2
-        x: 3833
-        y: 1065
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2624d08b771565060800000000000000
-      internalID: 6941825450269033058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_31
-      rect:
-        serializedVersion: 2
-        x: 3839
+        x: 2046
         y: 1057
-        width: 10
-        height: 14
+        width: 2050
+        height: 992
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1e7eff23884175b0800000000000000
-      internalID: -5372433152193167845
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_32
+      name: PreAssembled_09
       rect:
         serializedVersion: 2
-        x: 877
-        y: 1009
-        width: 37
-        height: 25
+        x: 4
+        y: 116
+        width: 2096
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -919,123 +298,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e524b20823e2ccc0800000000000000
-      internalID: -3692138983506827808
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PreAssembled_01_33
-      rect:
-        serializedVersion: 2
-        x: 1004
-        y: 989
-        width: 43
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0f27990067045820800000000000000
-      internalID: 2905955768619970317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_34
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 985
-        width: 28
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a81917ecd5154980800000000000000
-      internalID: -8555407878606219098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_35
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 96
-        width: 2094
-        height: 880
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98988d5f7b9c91c40800000000000000
-      internalID: 5483635813241096585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_36
-      rect:
-        serializedVersion: 2
-        x: 1128
-        y: 974
-        width: 17
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52d6968c91b206240800000000000000
-      internalID: 4782870194003995941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_37
-      rect:
-        serializedVersion: 2
-        x: 826
-        y: 954
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55933ae144a2a6730800000000000000
-      internalID: 3993050491677522261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PreAssembled_01_38
+      name: PreAssembled_10
       rect:
         serializedVersion: 2
         x: 2109
-        y: 85
+        y: 84
         width: 1987
         height: 829
       alignment: 0
@@ -1045,8 +319,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cd9c23493442d1b0800000000000000
-      internalID: -5633365171156247099
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -1054,7 +328,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1a4d0a61b352bf240ad5ef022fcf0f94
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
